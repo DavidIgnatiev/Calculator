@@ -1,0 +1,1 @@
+function insert(e){document.form.textview.value=document.form.textview.value+e}function clean(){document.form.textview.value=""}function back(){let e=document.form.textview.value;document.form.textview.value=e.substring(0,e.length-1)}function equal(){let exp=document.form.textview.value;exp&&(document.form.textview.value=eval(exp))}
